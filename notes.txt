@@ -1,0 +1,25 @@
+Notes:
+
+# Create React App
+npx create-react-app resort
+
+# install react router dom
+npm install react-router-dom --save
+
+# install react-icon
+npm install react-icon --save
+
+#Spring Cleaning, removing extra files
+Delete App.css
+Remove index.css from index.js
+Remove logo.svg
+Remove App.js Content
+
+# Set up netlify connection with react app
+Move _redirects to the public folder to it will playwell with netlify
+
+# Set up react-router-dom
+Import BrowserRouter as Router and add Router component in the render function (wrapping App component)
+Import Route and Switch formo react-router-dom and add it in App.js
+
+#See Hero.js to see how to set default values to props
